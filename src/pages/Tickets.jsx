@@ -106,10 +106,19 @@ const Tickets = () => {
         {filteredTickets.length > 0 ? (
           <ul className="space-y-3">
             {filteredTickets.map(ticket => (
-              <li key={ticket.id} className="border p-4 rounded shadow bg-white">
-                <p><strong>Title:</strong> {ticket.title}</p>
-                <p><strong>Status:</strong> {ticket.status}</p>
-                <p><strong>Priority:</strong> {ticket.priority}</p>
+              <li
+                key={ticket.id}
+                className={`px-4 py-3 rounded-md transition-all duration-200 ${
+                  ticket.priority === 'High'
+                    ? 'bg-red-50 border-l-4 border-red-500'
+                    : ticket.priority === 'Medium'
+                    ? 'bg-yellow-50 border-l-4 border-yellow-400'
+                    : 'bg-green-50 border-l-4 border-green-500'
+                }`}
+              >
+                <p className="font-semibold text-gray-900 text-base">{ticket.title}</p>
+                <p className="text-sm text-gray-700">Status: {ticket.status}</p>
+                <p className="text-sm text-gray-700">Priority: {ticket.priority}</p>
               </li>
             ))}
           </ul>
