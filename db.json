@@ -1,0 +1,70 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Router 1 outage in server room",
+      "status": "Open",
+      "priority": "High"
+    },
+    {
+      "id": "2",
+      "title": "End machine 3423 can't connect to internet",
+      "status": "In Progress",
+      "priority": "Medium"
+    },
+    {
+      "id": "3",
+      "title": "Email client crashing on login",
+      "status": "Closed",
+      "priority": "Low"
+    },
+    {
+      "id": "4",
+      "title": "VPN connection drops every 10 minutes",
+      "status": "Open",
+      "priority": "High"
+    },
+    {
+      "id": "5",
+      "title": "Printer in Room 208 not responding",
+      "status": "In Progress",
+      "priority": "Low"
+    },
+    {
+      "id": "6",
+      "title": "Password reset request for Finance user",
+      "status": "Closed",
+      "priority": "Low"
+    },
+    {
+      "id": "7",
+      "title": "Software update failure on workstation 552",
+      "status": "Open",
+      "priority": "Medium"
+    },
+    {
+      "id": "8",
+      "title": "Unstable Wi-Fi in conference room",
+      "status": "In Progress",
+      "priority": "High"
+    },
+    {
+      "id": "9",
+      "title": "Outlook not syncing new emails",
+      "status": "Open",
+      "priority": "Medium"
+    },
+    {
+      "id": "10",
+      "title": "Teams audio not working on laptop 998",
+      "status": "Closed",
+      "priority": "Medium"
+    },
+    {
+      "id": "66a3",
+      "title": "Ex",
+      "status": "Open",
+      "priority": "High"
+    }
+  ]
+}
